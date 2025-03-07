@@ -101,3 +101,11 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git add README.md
 clear
 git add .
+clear
+git remote set-url origin https://gitpod_pat_ZSIxxpOXb_TR_Dlg7BGZo9d-LEPHIZrkpIO6E6r523I.GAijBDspUsaXb8UPLZfte3MrTHV9fHnOLIsDEyP6@github.com/bniladridas/push.git
+clear
+git remote set-url origin https://github.com/bniladridas/worldcup-database-project.git
+git push origin main
+clear
+git status
+git add .freeCodeCamp/test/.cwd .freeCodeCamp/test/.next_command
