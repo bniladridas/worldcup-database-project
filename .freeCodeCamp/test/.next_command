@@ -109,3 +109,7 @@ git push origin main
 clear
 git status
 git add .freeCodeCamp/test/.cwd .freeCodeCamp/test/.next_command
+git pull origin main --rebase
+git push origin main
+git stash apply
+git add .freeCodeCamp/test/.cwd .freeCodeCamp/test/.next_command
